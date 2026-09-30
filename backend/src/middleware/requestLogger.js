@@ -1,2 +1,4 @@
-// middleware/requestLogger.js — Morgan-style HTTP request logger.
-// Implemented in Prompt 1.
+// src/middleware/requestLogger.js — Request logging middleware
+import morgan from 'morgan';
+
+export const requestLogger = morgan(':method :url :status :res[content-length] - :response-time ms');

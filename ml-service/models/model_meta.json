@@ -1,1 +1,15 @@
-{}
+{
+  "model_version": "rf-v1.0",
+  "model_type": "RandomForestRegressor",
+  "n_estimators": 300,
+  "min_samples_leaf": 2,
+  "target": "label_risk_score",
+  "score_range": [0, 100],
+  "thresholds": {
+    "low": 35,
+    "medium": 60,
+    "high": 100
+  },
+  "features_count": 38,
+  "catalog_enrichment": true
+}
