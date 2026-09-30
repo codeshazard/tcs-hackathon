@@ -1,0 +1,46 @@
+# Dependencies
+node_modules/
+.venv/
+venv/
+
+# Environment variables (NEVER commit secrets)
+.env
+.env.local
+.env.production
+
+# Python cache
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyc
+*.pyd
+
+# Build outputs
+dist/
+build/
+*.egg-info/
+
+# Logs
+*.log
+logs/
+
+# Model files (large; add explicitly if needed)
+*.pkl
+*.joblib
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Vitest / Jest coverage
+coverage/
+
+# Misc
+*.tmp
+*.bak
